@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
+
+
+int cnt=1;
+
+void solve(int i, int n){
+if(i>n)return;
+cout<<"Ankit"<<endl;
+solve(i+1, n);
+
+
+}
+
+int main() {
+    int n;
+    cin>>n;
+    solve(1, n);
+	return 0;
+}
